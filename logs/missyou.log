@@ -1,0 +1,22 @@
+2021-10-05 16:00:59.719 [ background-preinit ] - [ INFO  ] [ org.hibernate.validator.internal.util.Version : 21 ] - HV000001: Hibernate Validator 6.2.0.Final
+2021-10-05 16:01:09.780 [ main ] - [ INFO  ] [ com.guomz.missyou.MissyouApplication : 55 ] - Starting MissyouApplication using Java 1.8.0_291 on guomingzhedeMacBook-Air.local with PID 8427 (/Users/guomingzhe/javaProject/missyou/target/classes started by guomingzhe in /Users/guomingzhe/javaProject/missyou)
+2021-10-05 16:01:09.788 [ main ] - [ INFO  ] [ com.guomz.missyou.MissyouApplication : 659 ] - No active profile set, falling back to default profiles: default
+2021-10-05 16:01:11.824 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2021-10-05 16:01:11.826 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2021-10-05 16:01:11.827 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-10-05 16:01:11.942 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2021-10-05 16:01:12.111 [ main ] - [ INFO  ] [ org.hibernate.jpa.internal.util.LogHelper : 31 ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-05 16:01:12.138 [ main ] - [ INFO  ] [ org.hibernate.Version : 44 ] - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-05 16:01:12.212 [ main ] - [ INFO  ] [ org.hibernate.annotations.common.Version : 56 ] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-05 16:01:12.294 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 990 ] - {dataSource-1} inited
+2021-10-05 16:01:20.040 [ main ] - [ INFO  ] [ org.hibernate.dialect.Dialect : 175 ] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-10-05 16:01:21.156 [ main ] - [ INFO  ] [ o.h.e.t.jta.platform.internal.JtaPlatformInitiator : 52 ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-05 16:01:28.763 [ main ] - [ INFO  ] [ s.d.s.w.PropertySourcedRequestMappingHandlerMapping : 69 ] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-10-05 16:01:29.143 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8080"]
+2021-10-05 16:01:29.152 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 160 ] - Context refreshed
+2021-10-05 16:01:29.162 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 163 ] - Found 1 custom documentation plugin(s)
+2021-10-05 16:01:29.179 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 41 ] - Scanning for api listing references
+2021-10-05 16:01:29.460 [ main ] - [ INFO  ] [ s.d.s.w.r.operation.CachingOperationNameGenerator : 40 ] - Generating unique operation named: getByCategoryUsingGET_1
+2021-10-05 16:01:29.675 [ main ] - [ INFO  ] [ com.guomz.missyou.MissyouApplication : 61 ] - Started MissyouApplication in 40.413 seconds (JVM running for 46.164)
+2021-10-05 16:01:33.941 [ SpringApplicationShutdownHook ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 2043 ] - {dataSource-1} closing ...
+2021-10-05 16:01:33.959 [ SpringApplicationShutdownHook ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 2116 ] - {dataSource-1} closed

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+    <id>distribution</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <fileSets>
+<!--        <fileSet>-->
+<!--            <directory>src/main/assembly/bin</directory>-->
+<!--            <outputDirectory></outputDirectory>-->
+<!--            <fileMode>0755</fileMode>-->
+<!--        </fileSet>-->
+<!--        <fileSet>-->
+<!--            <directory>src/main/assembly/logs</directory>-->
+<!--            <outputDirectory>logs</outputDirectory>-->
+<!--        </fileSet>-->
+<!--        <fileSet>-->
+<!--            <directory>target</directory>-->
+<!--            <outputDirectory></outputDirectory>-->
+<!--            <includes>-->
+<!--                <include>*.jar</include>-->
+<!--            </includes>-->
+<!--        </fileSet>-->
+        <fileSet>
+            <directory>src/main/resources</directory>
+            <outputDirectory>config</outputDirectory>
+            <includes>
+                <include>application.properties</include>
+                <include>logback.xml</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</assembly>

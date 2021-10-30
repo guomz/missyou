@@ -38,3 +38,10 @@ build/
 /logs
 /mvnw
 /mvnw.cmd
+!/.mvn/
+!/logs/
+!/.gitignore
+!/mvnw
+!/.idea/
+!/.idea/
+!/mvnw.cmd

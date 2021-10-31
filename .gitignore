@@ -4,6 +4,7 @@ mvnw.cmd
 mvnw
 logs/
 src/main/resources/application-prod.properties
+.mvn
 
 
 
